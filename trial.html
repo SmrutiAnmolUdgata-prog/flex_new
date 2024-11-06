@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flex</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: pink;
+        flex-direction: column;
+        width: 100vw;
+      }
+      .card {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid grey;
+        padding: 10px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 5px 5px rgb(96, 3, 246);
+        height: 500px;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+      }
+      li {
+        font-family: monotype corsiva;
+        font-size: 200%;
+        list-style-type: none;
+        width: 200px;
+        text-align: center;
+      }
+      li:hover {
+        background-color: aqua;
+        border: 2px solid blue;
+        box-shadow: 2px 2px red;
+        color: rgb(1, 17, 235);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Programming Languages</h1>
+    <div class="card">
+      <ul>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>C</li>
+        <li>Swift</li>
+        <li>C#</li>
+        <li>Kotlin</li>
+        <li>R</li>
+      </ul>
+    </div>
+  </body>
+</html>
